@@ -1,0 +1,353 @@
+.body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.header {
+  height: 600px;
+  background: url(../images/header_bg-min.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #000;
+  opacity: 0.6;
+}
+
+.navbar-nav li {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.header_article {
+  text-align: center;
+  height: 400px;
+  margin-top: 150px;
+  color: #fff;
+}
+
+.header_article h1 {
+  font-size: 25px;
+}
+
+.header_article h2 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.header_article button {
+  margin-top: 150px;
+}
+
+.btn-warning {
+  border-radius: 30px !important;
+  font-size: 25px !important;
+}
+
+.features {
+  background-color: #fafafa;
+  color: #507e8d;
+  text-align: center;
+}
+
+.features h1 {
+  font-weight: 300;
+}
+
+.features h3 {
+  text-align: center;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #ff7800;
+}
+
+.features h4 {
+  font-weight: 100;
+  margin-bottom: 50px;
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.features h6 {
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.interests {
+  height: 600px;
+  background: url(../images/bg_2.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.interests h1 {
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.interests h3 {
+  color: #ff7800;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.interests span {
+  color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.row-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 120px;
+}
+
+.col-d {
+  margin-bottom: 30px;
+}
+
+.advantages {
+  text-align: center;
+  color: #507e8d;
+  background-color: #f6f6f6;
+}
+
+.advantages h1 {
+  font-weight: 300;
+  margin-bottom: 80px;
+  padding-top: 20px;
+}
+
+.advantages h3 {
+  font-weight: 100;
+  font-size: 21px;
+}
+
+.advantages h3 span {
+  color: #ff7800;
+  font-weight: 300;
+}
+
+.row-a {
+  margin-bottom: 100px;
+}
+
+.map {
+  z-index: 10;
+  position: relative;
+}
+
+.ghost {
+  z-index: 20;
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  margin-top: -610px;
+  width: 100%;
+  height: 610px;
+}
+
+.ghost-in {
+  background-color: #f6f6f6;
+  height: 600px;
+  z-index: 30;
+  position: absolute;
+  margin-top: -610px;
+}
+
+.map_ovr {
+  text-align: center;
+}
+
+.map_ovr h3 {
+  font-weight: 200;
+  font-size: 24px;
+  margin: 30px 30px;
+}
+
+.map_ovr img {
+  padding-top: 30px;
+}
+
+.map_ovr form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.map_ovr button {
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.form-control {
+  width: 75% !important;
+  line-height: 3 !important;
+  border-radius: 30px !important;
+  margin: 0 auto;
+}
+
+.show {
+  z-index: 1000000;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.buttomtitle {
+  height: 250px;
+  background-color: #1b140e;
+}
+
+.buttommenu {
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-top: 35px;
+  padding-left: 30px;
+  float: left;
+}
+
+.buttommenu li {
+  list-style-type: none;
+  margin-bottom: 18px;
+}
+
+.buttommenu a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.colortext {
+  color: #ff7800;
+}
+
+.buttominform {
+  float: left;
+}
+
+.buttominform a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.buttominform li {
+  list-style-type: none;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.buttomlogo {
+  float: left;
+  color: #ff7800;
+  width: 300px;
+  height: 130px;
+  margin-top: 130px;
+}
+
+.buttomlogo h1 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.buttomlogo img {
+  float: left;
+  margin-right: 15px;
+}
+
+.buttomlogo h3 {
+  color: #000;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.socialbutton {
+  margin-top: 35px;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.footer {
+  height: 60px;
+  background-color: #160f0b;
+}
+
+.footer h2 {
+  font-size: 15px;
+  color: #fff;
+  float: left;
+  margin-left: 308px;
+  line-height: 30px;
+}
+
+.footer h2:last-child {
+  margin-left: 90px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer {
+  height: 540px;
+  background-color: #f6f6f6;
+}
+
+.footer ul {
+  margin-top: 20px;
+  line-height: 35px;
+}
+
+.footer ul li {
+  list-style-type: none;
+  margin-top: 13px;
+}
+
+.footer ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 10px;
+}
+
+.red {
+  color: #ff7800;
+}
+
+.fb {
+  border-bottom: 3px solid #ff7800;
+}
+
+#show_map {
+  position: absolute;
+  left: 42%;
+  bottom: 10%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+@media (min-width: 768px) { 
+	.header_article {
+		h1{
+			font-size: 40px !important;
+		} 
+		h2{
+			font-size: 25px;
+		}
+		.btn{
+			padding: .7rem 2rem !important;
+		}	
+	}
+	.map_ovr{
+			form{
+				text-align: left;
+				margin-top: 0px;
+			}
+		}
+	.form-control{
+		margin: 0;
+	}
+	.footer{
+		height: 300px;
+	}
+	.fb{
+		border-bottom: 0px
+	}
+}

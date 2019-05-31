@@ -1,0 +1,69 @@
+@media (min-width: 576px) {
+  .header_article h1 {
+    font-size: 30px !important;
+  }
+  .header_article h2 {
+    font-size: 15px;
+  }
+  .btn {
+    padding: .5rem 1rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .header_article h1 {
+    font-size: 40px !important;
+  }
+  .header_article h2 {
+    font-size: 25px;
+  }
+  .header_article .btn {
+    padding: .7rem 2rem !important;
+  }
+  .map_ovr form {
+    text-align: left;
+    margin-top: 0px;
+  }
+  .form-control {
+    margin: 0;
+  }
+  .footer {
+    height: 300px;
+  }
+  .fb {
+    border-bottom: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    height: 100vh;
+  }
+  .header_article h1 {
+    font-size: 50px !important;
+  }
+  .header_article h2 {
+    font-size: 35px;
+  }
+  .header_article .btn {
+    padding: .9rem 3rem !important;
+  }
+  .interests h3 {
+    color: #ff7800 !important;
+    font-weight: 300;
+  }
+  .interests span {
+    color: #fff;
+    font-weight: 100;
+  }
+  .footer {
+    height: 265px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bar h1 {
+    font-size: 30px !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

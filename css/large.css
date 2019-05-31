@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+  .header {
+    height: 100vh;
+  }
+  .header_article h1 {
+    font-size: 50px !important;
+  }
+  .header_article h2 {
+    font-size: 35px;
+  }
+  .header_article .btn {
+    padding: .9rem 3rem !important;
+  }
+  .interests h3 {
+    color: #ff7800 !important;
+    font-weight: 300;
+  }
+  .interests span {
+    color: #fff;
+    font-weight: 100;
+  }
+  .footer {
+    height: 265px;
+  }
+}
+/*# sourceMappingURL=large.css.map */
